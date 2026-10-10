@@ -1,0 +1,8 @@
+{
+  "name": "OpenCV vtest.avi pedestrian walkway",
+  "frame_size": [768, 576],
+  "roi": [[1, 470], [767, 470], [522, 140], [246, 140]],
+  "unit_points": [[416, 330], [513, 330], [413, 292]],
+  "unit_length_cm": 180,
+  "notes": "Approximate calibration. No ground-truth measurements exist for this scene. The horizontal scale was estimated from the apparent height of pedestrians at different image rows (assuming an average height of about 170 cm), which places the horizon about 45 px above the frame. The depth scale additionally assumes a camera with roughly a 50 degree horizontal field of view (about 23 degrees downward tilt, about 6.5 m mounting height). The ROI is a ground rectangle of roughly 10.4 m x 21 m; the unit points mark 180 cm across and 180 cm in depth near the middle of the walkway. Expect distance errors of tens of centimetres, larger far from the camera."
+}

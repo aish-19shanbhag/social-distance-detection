@@ -1,0 +1,32 @@
+{
+  "detector": "SSD MobileNet",
+  "showcase_frame": 720,
+  "gif_frames": [
+    36,
+    85
+  ],
+  "summary": {
+    "video": "vtest.avi",
+    "detector": "ssd",
+    "frames_processed": 795,
+    "frame_size": [
+      768,
+      576
+    ],
+    "avg_people_per_frame": 4.71,
+    "person_frames": {
+      "high": 868,
+      "low": 137,
+      "safe": 2739
+    },
+    "frames_with_close_pair": 372,
+    "pipeline_fps": 8.97,
+    "pipeline_ms_mean": 111.5,
+    "wall_clock_s_including_rendering": 96.87,
+    "end_to_end_fps_including_rendering": 8.21,
+    "thresholds_cm": {
+      "high": 150.0,
+      "low": 180.0
+    }
+  }
+}

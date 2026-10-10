@@ -1,0 +1,39 @@
+{
+  "machine": {
+    "cpu_threads": 2,
+    "opencv": "4.14.0",
+    "python": "3.13.16",
+    "platform": "Linux"
+  },
+  "video": "vtest.avi",
+  "frame_size": [
+    768,
+    576
+  ],
+  "runs": [
+    {
+      "detector": "ssd",
+      "input_size": 300,
+      "frames_timed": 200,
+      "network_forward_ms_mean": 34.9,
+      "pipeline_ms_mean": 36.1,
+      "pipeline_fps": 27.7,
+      "with_rendering_fps": 25.1,
+      "avg_people_detected_per_frame": 1.47
+    },
+    {
+      "detector": "ssd",
+      "input_size": 512,
+      "frames_timed": 200,
+      "network_forward_ms_mean": 86.6,
+      "pipeline_ms_mean": 89.2,
+      "pipeline_fps": 11.2,
+      "with_rendering_fps": 10.8,
+      "avg_people_detected_per_frame": 4.85
+    }
+  ],
+  "full_video_run": {
+    "frames": 795,
+    "end_to_end_fps_including_rendering_and_video_writing": 8.21
+  }
+}

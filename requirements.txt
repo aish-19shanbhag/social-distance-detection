@@ -1,0 +1,8 @@
+# OpenCV 5 removed the Caffe importer used by SSD MobileNet, so stay on 4.x.
+opencv-python>=4.8,<5
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+streamlit>=1.50
+imageio>=2.31
+pytest>=7.0
