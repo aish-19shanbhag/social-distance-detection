@@ -18,7 +18,7 @@
 | **Risk zones** | **High** ≤ 150 cm · **Low** 150–180 cm · **None** > 180 cm (each person takes their worst pair) |
 | **Speed (measured here)** | SSD MobileNet on a 2-thread CPU: **27.7 fps** at 300×300 input, **11.2 fps** at 512×512 (detection + mapping + risk) |
 | **Interface** | Streamlit app (choose the model, sample or uploaded video, browse frames, risk chart, CSV export) plus a command-line tool |
-| **Role** | Solo project, Jan 2021 – May 2021; rebuilt in 2026 as a tested, reproducible package |
+| **Role** | Team project, Jan 2021 – May 2021; rebuilt in 2026 as a tested, reproducible package |
 
 <p align="center">
   <img src="reports/demo/demo.gif" width="92%" alt="Annotated pedestrian video with risk-coloured boxes and a bird's-eye map">
